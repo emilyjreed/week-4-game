@@ -1,26 +1,43 @@
 body {
-    background-color: grey;
-    background-image: url('assets/images/Overwatch-256.png');
+    background-color: #666666;
+    
 }
 
 #title {
     text-align: center;
-    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     border: 5px solid orange;
     padding: 20px;
     color: beige;
 }
 
-#instructions {
+.game-inst {
+    color: #666666;
+    background-color: #ffb31a;
+}
+
+.game-inst:hover {
+    background-color: orange;
+    color: black;
+}
+
+.card-body {
     text-align: center;
-    margin: 40px;
-    color: beige;
+    color: orange;
+    background-color: #737373;
 }
 
 .number-wins-losses {
     text-align: center;
     padding: 20px;
     border: 5px solid orange;
+    color: beige;
+    margin-top: 10px;
+}
+
+.owimage:hover {
+    cursor: pointer;
 }
 
 #compnumber {
@@ -28,16 +45,12 @@ body {
 }
 
 #overwatch {
-    margin: 40px;
+    margin: 20px;
 }
 
-.playerscore {
-    text-align: center;
+#totalscore {
+    border: 5px solid orange;
+    margin-bottom: 20px;
+    color: beige;
 }
 
-footer {
-    width: 100%;
-    height: 50px;
-    background-image: url("assets/images/overwatch2.png");
-    background-size: 100% 100%;
-}
