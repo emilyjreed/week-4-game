@@ -1,0 +1,43 @@
+body {
+    background-color: grey;
+    background-image: url('assets/images/Overwatch-256.png');
+}
+
+#title {
+    text-align: center;
+    margin: 40px;
+    border: 5px solid orange;
+    padding: 20px;
+    color: beige;
+}
+
+#instructions {
+    text-align: center;
+    margin: 40px;
+    color: beige;
+}
+
+.number-wins-losses {
+    text-align: center;
+    padding: 20px;
+    border: 5px solid orange;
+}
+
+#compnumber {
+    padding-top: 25px;
+}
+
+#overwatch {
+    margin: 40px;
+}
+
+.playerscore {
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-image: url("assets/images/overwatch2.png");
+    background-size: 100% 100%;
+}
